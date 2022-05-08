@@ -16,8 +16,9 @@
 
 
 # 1st Deliverable
->### Thematic Area :
->E-Textiles
+>### T H E M A T I C _ A R E A :
+E-Textiles
+
 >### P A C T :
 **PEOPLE:** Οι χρήστες μας θα είναι μαθητές της 1ης-3ης δημοτικού, ηλικίας 6-9 ετών και βάρους 20-30 κιλών (με απόκλιση 2 κιλών).
 <br><br>
