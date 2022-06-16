@@ -58,19 +58,19 @@
   - Το σύστημα θα είναι ενσωματωμένο στην τσάντα, η οποία δεν θα βρίσκεται πάντα σε ένα σημείο 
 
 <br><br>
-**TECHNOLOGIES:** Lilypad (programming), Piezo (weight sensor), φώτα LED.
+**TECHNOLOGIES:** Lilypad (programming), Piezo (weight sensor), RGB LED.
 - ***Input:***
 <br>Η τοποθέτηση των βιβλίων μέσα στην τσάντα θα εισάγει τα δεδομένα βάρους στον αισθητήρα βάρους
 <br>Άνοιγμα και κλείσιμο του διακόπτη για την έναρξη και τη λήξη του συστήματος αντίστοιχα.
 
 - ***Output:***
-<br>Ανάλογα με το βάρος των βιβλίων θα ανάβει το αντίστοιχο από τα 3 LED.
+<br>Ανάλογα με το βάρος των βιβλίων θα ανάβει το αντίστοιχο χρώμα του RGB LED.
   - Πράσινο    >  Κατάλληλο βάρος
   - Μπλε  >  Οριακό βάρος
-  - Κόκκινο    >  Ακατάλληλο βάρος (μεγάλη καταπόνηση της πλάτης του παιδιού)
+  - Κόκκινο    >  Ακατάλληλο βάρος (μεγάλη καταπόνηση της πλάτης του παιδιού) 
 
 - ***Communication:***
-<br>Το σύστημα ανίχνευσης βάρους επικοινωνεί την καταστασή του με τον χρήστη μέσω των LED. (οπτικοποίηση)
+<br>Το σύστημα ανίχνευσης βάρους επικοινωνεί την καταστασή του με τον χρήστη μέσω του RGB LED. (οπτικοποίηση)
 
 # 2nd Deliverable
 >### I N F O R M A T I O N _ A R C H I T E C T U R E :
@@ -81,10 +81,6 @@
 - Αν το πράσινο ή το μπλε φωτάκι ανάψουν εξαρχής, τότε ο χρήστης μπορεί να προχωρήσει στην ολοκλήρωση της διαδικασίας. 
 
 Αφού ολοκληρωθέι η διαδικασία γεμίσματος της τσάντας, ο χρήστης κλείνει τον διακόπτη και παύει η λειτουργία του συστήματος. (Οπτικά: Σβήνουν οι φωτεινές ενδείξεις)
-
->### I N T E R F A C E _ D E S I G N :
-<br>
-
 
 # 3rd Deliverable 
 >### S C E N A R I O S :
@@ -124,18 +120,34 @@
 >### P R O T O T Y P I N G :
 
 Αρχικά πρίν ξεκινήσουμε με την προτοτυποποίηση φτιάξαμε το κύκλωμα μας στο Tinkercad > [Team Assignment](https://www.tinkercad.com/things/b6mycFduaCB-team-assignment/editel?sharecode=LQttA-oZxhUYwuRlR0R5wnw91GAZ4TWs1ICrqUoAKwg) .
+<br><br>
 ![](Report_Images/i3.jpg)
+<br><br>
 Στη συνέχεια αφού είδαμε οτι δουλεύει κανονικά, δανειστήκαμε το Arduino των [Partners In Crime](https://github.com/MaritettaKatsarou/Interaction-Design-Project-Assignment) και φτιάξαμε το κύκλωμα εκεί, μιας και ήταν πιο εύκολη η μεταφορά του απο τον ψηφιακό κόσμο στον πραγματικό, αφού στο Tinkercad υπάρχει μόνο η πλατφόρμα 
 του Arduino και όχι και αυτή του Lilypad.
+<br><br>
 ![](Report_Images/i4.jpg)
-Κάποια screenshots απο βίντεο που βγάλαμε το κύκλωμα στην πλατφόρμα του Arduino :
-![](Report_Images/.jpg)
-![](Report_Images/.jpg)
-![](Report_Images/.jpg)
+<br><br>
+Το σχετικό βίντεο :
+<br><br>
+![](Report_Images/)
+<br><br>
 Έπειτα αφού δούλεψε κανονικά στο Arduino, μεταφέραμε το κύκλωμα στο Lilypad μας.
-<br>
+<br><br>
 ![](Report_Images/i5.jpg)
+<br><br>
+Το σχετικό βίντεο :
+<br><br>
+![](Report_Images/)
+<br><br>
+Τέλος το ράψαμε στην τσάντα.
+<br><br>
+![](Report_Images/)
 # Conclusions
 
 
 # Sources
+- [Using a LilyPad & Pressure Sensor](https://www.instructables.com/Using-a-LilyPad-Pressure-Sensor-to-Monitor-Bird-Fo/)
+- [Conductive Thread Pressure Sensor](https://www.instructables.com/Conductive-Thread-Pressure-Sensor/)
+- [Glow Pillow with Force Sensing Resistor](https://create.arduino.cc/projecthub/rachel-fagan/glow-pillow-with-force-sensing-resistor-904229)
+- [Backpack Weight Sensor](https://www.hackster.io/prabhuta/backpack-weight-sensor-c1e82b)
