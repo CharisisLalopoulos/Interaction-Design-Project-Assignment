@@ -128,6 +128,12 @@
 Στη συνέχεια αφού είδαμε οτι δουλεύει κανονικά, δανειστήκαμε το Arduino των [Partners In Crime](https://github.com/MaritettaKatsarou/Interaction-Design-Project-Assignment) και φτιάξαμε το κύκλωμα εκεί, μιας και ήταν πιο εύκολη η μεταφορά του απο τον ψηφιακό κόσμο στον πραγματικό, αφού στο Tinkercad υπάρχει μόνο η πλατφόρμα 
 του Arduino και όχι και αυτή του Lilypad.
 ![](Report_Images/i4.jpg)
+Κάποια screenshots απο βίντεο που βγάλαμε το κύκλωμα στην πλατφόρμα του Arduino :
+![](Report_Images/.jpg)
+![](Report_Images/.jpg)
+![](Report_Images/.jpg)
+Έπειτα αφού δούλεψε κανονικά στο Arduino, μεταφέραμε το κύκλωμα στο Lilypad μας.
+![](Report_Images/i5.jpg)
 # Conclusions
 
 
