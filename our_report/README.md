@@ -133,6 +133,7 @@
 ![](Report_Images/.jpg)
 ![](Report_Images/.jpg)
 Έπειτα αφού δούλεψε κανονικά στο Arduino, μεταφέραμε το κύκλωμα στο Lilypad μας.
+<br>
 ![](Report_Images/i5.jpg)
 # Conclusions
 
